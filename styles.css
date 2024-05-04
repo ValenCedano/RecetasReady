@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
+body{
+    background-image: url('2147849747.jpg') ;
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-top: 60px;
+    font-family: 'Nunito', serif;
+    font-weight: 700;
+    font-size:50px;
+    color: aquamarine;
+    text-align: center;
+}
+
+h4{
+    margin-top: 3em;
+    font-family: 'Quicksand',serif;
+    color:white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+        
+}
+
+form {
+    margin-top: 2em;
+    font-family: 'Nunito', serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(191, 237, 222);
+    font-style: oblique;
+
+
+}
+
+#fname{
+    margin-top: 1em;
+    border: 2px solid rgb(149, 149, 218);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+
+#search{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(115, 169, 169);
+    border:transparent;
+    border-radius: 30%;
+    color: black;
+    
+}
+#search :hover{
+    cursor: pointer;
+}
+
+#opciones{
+    width:280px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(149, 149, 218);
+    color:black;
+    margin-left: -3.7em;
+}
+
+.busquedaNombre{
+    margin-bottom: 50px;
+    margin-top: 7em;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 70vw;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(241, 211, 112, 0.87)
+    
+}
+.busquedaNombre h2 {
+    font-family: 'Quicksand',serif;
+    font-size: x-larger;
+    text-align: center;
+    margin-top: 2em;
+}
+.busquedaNombre img{
+    margin-top: 3em;
+    align-self: center;
+    width: 400px;
+    height: 400px;
+}
+
+.busquedaNombre h3{
+    font-family: 'Quicksand',serif;
+    font-size: x-larger;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.busquedaNombre .Ingredientes li{
+    list-style: none;
+    text-decoration: none;
+    background-color: antiquewhite;
+    width: 89px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Montserrat',serif;
+    border-radius: 12px;
+    align-content: center;
+    font-weight: 300;
+    box-shadow: 0px 4px 8px rgba(249, 176, 162, 0.5)
+}
+.busquedaNombre .Ingredientes ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -40px;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* width: 100%; */
+    justify-content: center;
+    
+    
+}
+
+.busquedaNombre .Ingredientes{
+    margin: 0px 10px;
+    align-items: flex-start;
+}
+.busquedaNombre .Receta {
+    margin: 6px 12px;
+    font-family: 'Montserrat',serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 4px;
+
+    
+}
+.busquedaNombre .Receta p{
+    text-align: justify;
+}
+
+.galeriaSegunFiltro {
+    margin:40px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+    
+
+
+.galeriaSegunFiltro .imagenNombreContainer{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    background-color: azure;
+    border-radius: 10px;
+    align-content: center;
+    box-shadow: 10px 4px 0px rgba(133, 97, 69, 0.5)
+
+}
+
+.galeriaSegunFiltro .imagenNombreContainer img{
+    width: 360px;
+    height: 250px;
+    object-fit: contain;
+    margin-top: 20px;
+
+}
+.galeriaSegunFiltro .imagenNombreContainer h2{
+    font-family: 'Nunito', serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(187, 230, 215);
+    height: 70px;
+    margin-top: 25px;
+    align-content: center;
+    box-shadow: 0px 4px 8px rgba(149, 222, 129, 0.5)
+}
+.galeriaSegunFiltro .imagenNombreContainer h2:hover{
+    cursor: pointer;
+    background-color: white;
+}

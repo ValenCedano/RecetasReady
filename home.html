@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecetasReady</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/ea43250ec2.js" crossorigin="anonymous"></script>
+    <script src="data.js" type="module" defer></script>
+    <script src="services.js" type="module" defer></script>
+    <script src="home.js" type="module" defer></script>
+</head>
+
+<body>
+    <h1> Bienvenido a RecetasReady</h1>
+    <h4> La página web que te ayudará a encontrar esa receta <br> que tanto deseas preparar. 
+        <br>
+        ¡Dejate sorprender! </h4>
+    <form>
+        <label for="fname"> Comienza a buscar </label><br>
+        <div>
+            <input type="text" id="fname" name="fname" placeholder="Ingresar valor">
+            <button id="search"> <i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <select id="opciones" name="opciones">
+            <option value="selection"> Seleccione el tipo </option>
+            <option value="nombre">Nombre</option>
+            <option value="categoria">Categoria</option>
+            <option value="ingrediente">Ingrediente principal</option>
+            <option value="area">Area</option>
+        </select>
+    </form>
+
+    <main>
+        <section class="busquedaNombre">
+
+        </section>
+
+        <section class="galeriaSegunFiltro">
+        </section>
+    </main>
+
+</body>
+
+
+
+
+</html>
